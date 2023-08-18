@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc/randomInputData.hh
+boost/random/mersenne_twister.hpp
+-
+boost/random/uniform_int_distribution.hpp
+-
+
+/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/src/main.cpp
+iostream
+-
+../inc/randomInputData.hh
+/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc/randomInputData.hh
+
