@@ -1,14 +1,13 @@
 #include <iostream>
 #include "../inc/randomInputData.hh"
 
-int main()
+int main( int argc, char **argv )
 {
     randomInputData newData(0, 1000, 100);
 
     newData.randomArray();
 
-    std::cout << "First count in array: " << newData[0] << std::endl;
-    std::cout << "Middle count in array: " << newData[49] << std::endl;
+    newData.arrayToFile(argv[1]);
     
     return 0;
 }

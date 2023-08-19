@@ -1,6 +1,9 @@
 #ifndef RANDOM_INPUT_DATA_HH
 #define RANDOM_INPUT_DATA_HH
 
+#include <iostream>
+#include <fstream>
+
 #include <boost/random/mersenne_twister.hpp>
 #include <boost/random/uniform_int_distribution.hpp>
 
@@ -37,8 +40,9 @@ class randomInputData
     
     void randomArray ();
 
-    int operator[] ( int arrayIndex );
+    void arrayToFile ( char *filename );
 
+    int operator[] ( int arrayIndex );
 };
 
 #endif

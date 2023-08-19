@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc/randomInputData.hh
+iostream
+-
+fstream
+-
 boost/random/mersenne_twister.hpp
 -
 boost/random/uniform_int_distribution.hpp
