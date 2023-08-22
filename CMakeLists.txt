@@ -8,6 +8,10 @@ add_library(randomInputData src/randomInputData.cpp)
 target_link_directories(randomInputData PUBLIC inc/)
 target_link_libraries(randomInputData LINK_PUBLIC ${Boost_LIBRARIES})
 
+add_library(maxSubarrayClass src/maxSubarray.cpp)
+target_link_directories(maxSubarrayClass PUBLIC inc/)
+target_link_libraries(maxSubarrayClass LINK_PUBLIC randomInputData)
+
 add_executable(maxSubarray src/main.cpp)
 target_link_directories(maxSubarray PUBLIC inc/)
-target_link_libraries(maxSubarray LINK_PUBLIC randomInputData)
+target_link_libraries(maxSubarray LINK_PUBLIC maxSubarrayClass)

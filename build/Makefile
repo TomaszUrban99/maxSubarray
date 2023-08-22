@@ -124,6 +124,19 @@ maxSubarray/fast:
 .PHONY : maxSubarray/fast
 
 #=============================================================================
+# Target rules for targets named maxSubarrayClass
+
+# Build rule for target.
+maxSubarrayClass: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxSubarrayClass
+.PHONY : maxSubarrayClass
+
+# fast build rule for target.
+maxSubarrayClass/fast:
+	$(MAKE) -f CMakeFiles/maxSubarrayClass.dir/build.make CMakeFiles/maxSubarrayClass.dir/build
+.PHONY : maxSubarrayClass/fast
+
+#=============================================================================
 # Target rules for targets named randomInputData
 
 # Build rule for target.
@@ -163,6 +176,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/maxSubarray.dir/build.make CMakeFiles/maxSubarray.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/maxSubarray.o: src/maxSubarray.cpp.o
+
+.PHONY : src/maxSubarray.o
+
+# target to build an object file
+src/maxSubarray.cpp.o:
+	$(MAKE) -f CMakeFiles/maxSubarrayClass.dir/build.make CMakeFiles/maxSubarrayClass.dir/src/maxSubarray.cpp.o
+.PHONY : src/maxSubarray.cpp.o
+
+src/maxSubarray.i: src/maxSubarray.cpp.i
+
+.PHONY : src/maxSubarray.i
+
+# target to preprocess a source file
+src/maxSubarray.cpp.i:
+	$(MAKE) -f CMakeFiles/maxSubarrayClass.dir/build.make CMakeFiles/maxSubarrayClass.dir/src/maxSubarray.cpp.i
+.PHONY : src/maxSubarray.cpp.i
+
+src/maxSubarray.s: src/maxSubarray.cpp.s
+
+.PHONY : src/maxSubarray.s
+
+# target to generate assembly for a file
+src/maxSubarray.cpp.s:
+	$(MAKE) -f CMakeFiles/maxSubarrayClass.dir/build.make CMakeFiles/maxSubarrayClass.dir/src/maxSubarray.cpp.s
+.PHONY : src/maxSubarray.cpp.s
+
 src/randomInputData.o: src/randomInputData.cpp.o
 
 .PHONY : src/randomInputData.o
@@ -199,10 +239,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... maxSubarray"
+	@echo "... maxSubarrayClass"
 	@echo "... randomInputData"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/maxSubarray.o"
+	@echo "... src/maxSubarray.i"
+	@echo "... src/maxSubarray.s"
 	@echo "... src/randomInputData.o"
 	@echo "... src/randomInputData.i"
 	@echo "... src/randomInputData.s"

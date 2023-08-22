@@ -47,5 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/maxSubarray.dir/DependInfo.cmake"
+  "CMakeFiles/maxSubarrayClass.dir/DependInfo.cmake"
   "CMakeFiles/randomInputData.dir/DependInfo.cmake"
   )

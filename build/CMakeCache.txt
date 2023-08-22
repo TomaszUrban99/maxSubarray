@@ -228,6 +228,9 @@ PROJECT_BINARY_DIR:STATIC=/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwy
 //Value Computed by CMake
 PROJECT_SOURCE_DIR:STATIC=/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj
 
+//Dependencies for the target
+maxSubarrayClass_LIB_DEPENDS:STATIC=general;randomInputData;
+
 
 ########################
 # INTERNAL cache entries

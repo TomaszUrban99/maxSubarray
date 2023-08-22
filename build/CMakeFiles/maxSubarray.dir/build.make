@@ -79,6 +79,7 @@ maxSubarray_EXTERNAL_OBJECTS =
 
 maxSubarray: CMakeFiles/maxSubarray.dir/src/main.cpp.o
 maxSubarray: CMakeFiles/maxSubarray.dir/build.make
+maxSubarray: libmaxSubarrayClass.a
 maxSubarray: librandomInputData.a
 maxSubarray: CMakeFiles/maxSubarray.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable maxSubarray"

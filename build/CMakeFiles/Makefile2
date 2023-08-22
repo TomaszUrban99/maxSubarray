@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/
 
 # The main recursive "all" target.
 all: CMakeFiles/maxSubarray.dir/all
+all: CMakeFiles/maxSubarrayClass.dir/all
 all: CMakeFiles/randomInputData.dir/all
 
 .PHONY : all
@@ -65,6 +66,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/maxSubarray.dir/clean
+clean: CMakeFiles/maxSubarrayClass.dir/clean
 clean: CMakeFiles/randomInputData.dir/clean
 
 .PHONY : clean
@@ -73,6 +75,7 @@ clean: CMakeFiles/randomInputData.dir/clean
 # Target rules for target CMakeFiles/maxSubarray.dir
 
 # All Build rule for target.
+CMakeFiles/maxSubarray.dir/all: CMakeFiles/maxSubarrayClass.dir/all
 CMakeFiles/maxSubarray.dir/all: CMakeFiles/randomInputData.dir/all
 	$(MAKE) -f CMakeFiles/maxSubarray.dir/build.make CMakeFiles/maxSubarray.dir/depend
 	$(MAKE) -f CMakeFiles/maxSubarray.dir/build.make CMakeFiles/maxSubarray.dir/build
@@ -81,7 +84,7 @@ CMakeFiles/maxSubarray.dir/all: CMakeFiles/randomInputData.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/maxSubarray.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maxSubarray.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles 0
 .PHONY : CMakeFiles/maxSubarray.dir/rule
@@ -97,13 +100,40 @@ CMakeFiles/maxSubarray.dir/clean:
 .PHONY : CMakeFiles/maxSubarray.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/maxSubarrayClass.dir
+
+# All Build rule for target.
+CMakeFiles/maxSubarrayClass.dir/all: CMakeFiles/randomInputData.dir/all
+	$(MAKE) -f CMakeFiles/maxSubarrayClass.dir/build.make CMakeFiles/maxSubarrayClass.dir/depend
+	$(MAKE) -f CMakeFiles/maxSubarrayClass.dir/build.make CMakeFiles/maxSubarrayClass.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles --progress-num=3,4 "Built target maxSubarrayClass"
+.PHONY : CMakeFiles/maxSubarrayClass.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maxSubarrayClass.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maxSubarrayClass.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles 0
+.PHONY : CMakeFiles/maxSubarrayClass.dir/rule
+
+# Convenience name for target.
+maxSubarrayClass: CMakeFiles/maxSubarrayClass.dir/rule
+
+.PHONY : maxSubarrayClass
+
+# clean rule for target.
+CMakeFiles/maxSubarrayClass.dir/clean:
+	$(MAKE) -f CMakeFiles/maxSubarrayClass.dir/build.make CMakeFiles/maxSubarrayClass.dir/clean
+.PHONY : CMakeFiles/maxSubarrayClass.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/randomInputData.dir
 
 # All Build rule for target.
 CMakeFiles/randomInputData.dir/all:
 	$(MAKE) -f CMakeFiles/randomInputData.dir/build.make CMakeFiles/randomInputData.dir/depend
 	$(MAKE) -f CMakeFiles/randomInputData.dir/build.make CMakeFiles/randomInputData.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles --progress-num=3,4 "Built target randomInputData"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles --progress-num=5,6 "Built target randomInputData"
 .PHONY : CMakeFiles/randomInputData.dir/all
 
 # Build rule for subdir invocation for target.

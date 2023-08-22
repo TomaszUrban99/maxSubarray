@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/maxSubarray.dir/src/main.cpp.o  -o maxSubarray   -L/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc  -Wl,-rpath,/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc librandomInputData.a 
+/usr/bin/c++     CMakeFiles/maxSubarray.dir/src/main.cpp.o  -o maxSubarray   -L/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc  -Wl,-rpath,/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc libmaxSubarrayClass.a librandomInputData.a 

@@ -1,13 +1,16 @@
 #include <iostream>
-#include "../inc/randomInputData.hh"
+#include <vector>
+#include "../inc/maxSubarray.hh"
 
 int main( int argc, char **argv )
 {
-    randomInputData newData(0, 1000, 100);
+    maxSubarray maxFind ( 0, 12, 20, argv[1]);
 
-    newData.randomArray();
+    std::vector<int> results = maxFind.maxArray();
 
-    newData.arrayToFile(argv[1]);
-    
+    std::cout << "Minimalna cena: " << maxFind.getInputData()[results[0]] << std::endl; 
+    std::cout << "Maksymalna cena sprzedazy: " << maxFind.getInputData()[results[1] + 1] << std::endl;
+    std::cout << "Maksymalny zysk: " << results[2] << std::endl;
+
     return 0;
 }

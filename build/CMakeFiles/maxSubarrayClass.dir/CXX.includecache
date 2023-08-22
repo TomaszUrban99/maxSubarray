@@ -22,11 +22,9 @@ boost/random/mersenne_twister.hpp
 boost/random/uniform_int_distribution.hpp
 -
 
-/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/src/main.cpp
-iostream
--
-vector
--
+/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/src/maxSubarray.cpp
 ../inc/maxSubarray.hh
 /home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/inc/maxSubarray.hh
+vector
+-
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/src/main.cpp" "/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles/maxSubarray.dir/src/main.cpp.o"
+  "/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/src/maxSubarray.cpp" "/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles/maxSubarrayClass.dir/src/maxSubarray.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,7 +14,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles/maxSubarrayClass.dir/DependInfo.cmake"
   "/home/tomasz/Kursy/Wprowadzenie_Do_Algorytmow/DzielZwyciezaj/build/CMakeFiles/randomInputData.dir/DependInfo.cmake"
   )
 

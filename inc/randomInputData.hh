@@ -37,6 +37,8 @@ class randomInputData
     {
         delete [] _outputArray;
     }
+
+    int getValueNumber () { return _valueNumber;}
     
     void randomArray ();
 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmaxSubarrayClass.a  CMakeFiles/maxSubarrayClass.dir/src/maxSubarray.cpp.o
+/usr/bin/ranlib libmaxSubarrayClass.a
