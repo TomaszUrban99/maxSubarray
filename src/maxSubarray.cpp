@@ -79,9 +79,6 @@ std::vector<int> maxSubarray::maxCrossingArray( int minIndex, int maxIndex, int 
     coordinatesAndSum[1] = maxRight;
     coordinatesAndSum[2] = rightSum + leftSum;
 
-    std::cout << "Max left: " << maxLeft << std::endl;
-    std::cout << "Max right: " << maxRight << std::endl;
-
     return coordinatesAndSum;
 }
 
